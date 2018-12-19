@@ -1,8 +1,8 @@
 FROM google/dart
 
-ENV DTA_DONT_LINT=""
-ENV DTA_DONT_ANALYZE=""
-ENV DTA_DONT_TEST=""
+ENV DTA_DISABLE_LINTER=""
+ENV DTA_DISABLE_ANALYZER=""
+ENV DTA_DISABLE_TESTS=""
 
 LABEL "maintainer"="Igor Borges <igor@borges.me>"
 LABEL "repository"="https://github.com/Igor1201/dart-test-action"
